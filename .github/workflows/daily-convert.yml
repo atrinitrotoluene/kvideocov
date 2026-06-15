@@ -1,0 +1,51 @@
+name: Daily Convert OuonnkiTV → KVideo
+
+on:
+  schedule:
+    # 每天 UTC 22:00 = 北京时间 06:00
+    - cron: '0 22 * * *'
+  workflow_dispatch:  # 支持手动触发
+  push:
+    branches:
+      - main
+
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Fetch and convert
+        id: convert
+        run: |
+          python ouonnkitv2kvideo.py --fetch \
+            --group normal \
+            --start-priority 1 \
+            -o kvideo_sources.json
+
+      - name: Commit and push
+        run: |
+          # 检查是否有变化
+          if [ -z "$(git status --porcelain kvideo_sources.json)" ]; then
+            echo "✅ 数据源无变化，跳过提交"
+            exit 0
+          fi
+
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add kvideo_sources.json
+
+          git commit -m "chore: 自动更新 KVideo 源 ($(TZ=Asia/Shanghai date +'%Y-%m-%d %H:%M:%S CST'))"
+
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main

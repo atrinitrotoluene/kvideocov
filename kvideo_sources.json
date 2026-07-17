@@ -32,12 +32,20 @@
     "priority": 4
   },
   {
+    "id": "xinlangapi-com",
+    "name": "新浪资源",
+    "baseUrl": "https://api.xinlangapi.com/xinlangapi.php/provide/vod",
+    "group": "normal",
+    "enabled": true,
+    "priority": 5
+  },
+  {
     "id": "www-subozy-com",
     "name": "速播资源",
     "baseUrl": "https://subocaiji.com/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 5
+    "priority": 6
   },
   {
     "id": "jinyingzy-com",
@@ -45,7 +53,7 @@
     "baseUrl": "https://jyzyapi.com/provide/vod/from/jinyingyun/at/json",
     "group": "normal",
     "enabled": true,
-    "priority": 6
+    "priority": 7
   },
   {
     "id": "api-guangsuapi-com",
@@ -53,7 +61,7 @@
     "baseUrl": "https://api.guangsuapi.com/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 7
+    "priority": 8
   },
   {
     "id": "www-hongniuzy-com",
@@ -61,7 +69,7 @@
     "baseUrl": "https://www.hongniuzy2.com/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 8
+    "priority": 9
   },
   {
     "id": "caiji-moduapi-cc",
@@ -69,7 +77,7 @@
     "baseUrl": "https://caiji.moduapi.cc/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 9
+    "priority": 10
   },
   {
     "id": "www-ryzyw-com",
@@ -77,7 +85,15 @@
     "baseUrl": "https://cj.rycjapi.com/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 10
+    "priority": 11
+  },
+  {
+    "id": "www-haohuazy-com",
+    "name": "豪华资源",
+    "baseUrl": "https://hhzyapi.com/api.php/provide/vod",
+    "group": "normal",
+    "enabled": true,
+    "priority": 12
   },
   {
     "id": "www-huyaapi-com",
@@ -85,7 +101,7 @@
     "baseUrl": "https://www.huyaapi.com/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 11
+    "priority": 13
   },
   {
     "id": "lbapiby-com",
@@ -93,7 +109,7 @@
     "baseUrl": "http://lbapiby.com/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 12
+    "priority": 14
   },
   {
     "id": "155zy2-com",
@@ -101,7 +117,7 @@
     "baseUrl": "https://155api.com/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 13
+    "priority": 15
   },
   {
     "id": "apiyutu-com",
@@ -109,7 +125,7 @@
     "baseUrl": "https://apiyutu.com/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 14
+    "priority": 16
   },
   {
     "id": "fhapi9-com",
@@ -117,7 +133,7 @@
     "baseUrl": "http://fhapi9.com/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 15
+    "priority": 17
   },
   {
     "id": "apilsbzy1-com",
@@ -125,7 +141,7 @@
     "baseUrl": "https://apilsbzy1.com/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 16
+    "priority": 18
   },
   {
     "id": "xiaojizy-live",
@@ -133,7 +149,7 @@
     "baseUrl": "https://api.xiaojizy.live/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 17
+    "priority": 19
   },
   {
     "id": "hsckzy-xyz",
@@ -141,7 +157,7 @@
     "baseUrl": "https://hsckzy.xyz/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 18
+    "priority": 20
   },
   {
     "id": "apidanaizi-com",
@@ -149,7 +165,7 @@
     "baseUrl": "https://apidanaizi.com/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 19
+    "priority": 21
   },
   {
     "id": "jkunzyapi-com",
@@ -157,7 +173,7 @@
     "baseUrl": "https://jkunzyapi.com/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 20
+    "priority": 22
   },
   {
     "id": "lbapi9-com",
@@ -165,7 +181,7 @@
     "baseUrl": "https://lbapi9.com/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 21
+    "priority": 23
   },
   {
     "id": "Naixxzy-com",
@@ -173,7 +189,7 @@
     "baseUrl": "https://Naixxzy.com/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 22
+    "priority": 24
   },
   {
     "id": "apilj-com",
@@ -181,7 +197,7 @@
     "baseUrl": "https://apilj.com/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 23
+    "priority": 25
   },
   {
     "id": "shayuapi-com",
@@ -189,7 +205,7 @@
     "baseUrl": "https://shayuapi.com/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 24
+    "priority": 26
   },
   {
     "id": "didizy-com",
@@ -197,7 +213,7 @@
     "baseUrl": "https://api.ddapi.cc/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 25
+    "priority": 27
   },
   {
     "id": "heiliaozy-cc",
@@ -205,7 +221,7 @@
     "baseUrl": "https://www.heiliaozyapi.com/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 26
+    "priority": 28
   },
   {
     "id": "thzy8-me",
@@ -213,7 +229,7 @@
     "baseUrl": "https://thzy1.me/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 27
+    "priority": 29
   },
   {
     "id": "www-jingpinx-com",
@@ -221,7 +237,7 @@
     "baseUrl": "https://www.jingpinx.com/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 28
+    "priority": 30
   },
   {
     "id": "www-xxibaozyw-com",
@@ -229,7 +245,7 @@
     "baseUrl": "https://www.xxibaozyw.com/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 29
+    "priority": 31
   },
   {
     "id": "xiangjiaozyw-com",
@@ -237,7 +253,7 @@
     "baseUrl": "https://www.xiangjiaozyw.com/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 30
+    "priority": 32
   },
   {
     "id": "www-msnii-com",
@@ -245,7 +261,7 @@
     "baseUrl": "https://www.msnii.com/api/json.php",
     "group": "normal",
     "enabled": true,
-    "priority": 31
+    "priority": 33
   },
   {
     "id": "www-pgxdy-com",
@@ -253,7 +269,7 @@
     "baseUrl": "https://www.pgxdy.com/api/json.php",
     "group": "normal",
     "enabled": true,
-    "priority": 32
+    "priority": 34
   },
   {
     "id": "www-kxgav-com",
@@ -261,7 +277,7 @@
     "baseUrl": "https://www.kxgav.com/api/json.php",
     "group": "normal",
     "enabled": true,
-    "priority": 33
+    "priority": 35
   },
   {
     "id": "xingba111-com",
@@ -269,6 +285,6 @@
     "baseUrl": "https://xingba222.com/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 34
+    "priority": 36
   }
 ]

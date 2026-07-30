@@ -200,17 +200,17 @@
     "priority": 25
   },
   {
-    "id": "apilj-com",
-    "name": "辣椒资源",
-    "baseUrl": "https://apilj.com/api.php/provide/vod",
+    "id": "Naixxzy-com",
+    "name": "奶香资源",
+    "baseUrl": "https://Naixxzy.com/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
     "priority": 26
   },
   {
-    "id": "shayuapi-com",
-    "name": "鲨鱼资源",
-    "baseUrl": "https://shayuapi.com/api.php/provide/vod",
+    "id": "apilj-com",
+    "name": "辣椒资源",
+    "baseUrl": "https://apilj.com/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
     "priority": 27
@@ -302,13 +302,5 @@
     "group": "normal",
     "enabled": true,
     "priority": 38
-  },
-  {
-    "id": "xingba111-com",
-    "name": "杏吧资源",
-    "baseUrl": "https://xingba222.com/api.php/provide/vod",
-    "group": "normal",
-    "enabled": true,
-    "priority": 39
   }
 ]

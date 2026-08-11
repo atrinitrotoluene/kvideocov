@@ -112,12 +112,20 @@
     "priority": 14
   },
   {
+    "id": "hsckzy-xyz",
+    "name": "黄色仓库",
+    "baseUrl": "https://hsckzy.xyz/api.php/provide/vod",
+    "group": "normal",
+    "enabled": true,
+    "priority": 15
+  },
+  {
     "id": "apidanaizi-com",
     "name": "大奶子",
     "baseUrl": "https://apidanaizi.com/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 15
+    "priority": 16
   },
   {
     "id": "jkunzyapi-com",
@@ -125,7 +133,7 @@
     "baseUrl": "https://jkunzyapi.com/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 16
+    "priority": 17
   },
   {
     "id": "lbapi9-com",
@@ -133,7 +141,7 @@
     "baseUrl": "https://lbapi9.com/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 17
+    "priority": 18
   },
   {
     "id": "Naixxzy-com",
@@ -141,7 +149,7 @@
     "baseUrl": "https://Naixxzy.com/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 18
+    "priority": 19
   },
   {
     "id": "apilj-com",
@@ -149,7 +157,7 @@
     "baseUrl": "https://apilj.com/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 19
+    "priority": 20
   },
   {
     "id": "shayuapi-com",
@@ -157,7 +165,7 @@
     "baseUrl": "https://shayuapi.com/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 20
+    "priority": 21
   },
   {
     "id": "doudouzy-com",
@@ -165,7 +173,7 @@
     "baseUrl": "https://api.douapi.cc/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 21
+    "priority": 22
   },
   {
     "id": "didizy-com",
@@ -173,20 +181,12 @@
     "baseUrl": "https://api.ddapi.cc/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 22
+    "priority": 23
   },
   {
     "id": "heiliaozy-cc",
     "name": "黑料资源",
     "baseUrl": "https://www.heiliaozyapi.com/api.php/provide/vod",
-    "group": "normal",
-    "enabled": true,
-    "priority": 23
-  },
-  {
-    "id": "thzy8-me",
-    "name": "桃花资源",
-    "baseUrl": "https://thzy1.me/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
     "priority": 24

@@ -272,12 +272,20 @@
     "priority": 34
   },
   {
+    "id": "shayuapi-com",
+    "name": "鲨鱼资源",
+    "baseUrl": "https://shayuapi.com/api.php/provide/vod",
+    "group": "normal",
+    "enabled": true,
+    "priority": 35
+  },
+  {
     "id": "doudouzy-com",
     "name": "豆豆资源",
     "baseUrl": "https://api.douapi.cc/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 35
+    "priority": 36
   },
   {
     "id": "didizy-com",
@@ -285,7 +293,7 @@
     "baseUrl": "https://api.ddapi.cc/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 36
+    "priority": 37
   },
   {
     "id": "heiliaozy-cc",
@@ -293,7 +301,7 @@
     "baseUrl": "https://www.heiliaozyapi.com/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 37
+    "priority": 38
   },
   {
     "id": "thzy8-me",
@@ -301,7 +309,7 @@
     "baseUrl": "https://thzy1.me/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 38
+    "priority": 39
   },
   {
     "id": "www-jingpinx-com",
@@ -309,7 +317,7 @@
     "baseUrl": "https://www.jingpinx.com/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 39
+    "priority": 40
   },
   {
     "id": "ckzy-me",
@@ -317,7 +325,7 @@
     "baseUrl": "https://ckzy.me/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 40
+    "priority": 41
   },
   {
     "id": "souavzyw-com",
@@ -325,23 +333,7 @@
     "baseUrl": "https://api.souavzyw.net/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 41
-  },
-  {
-    "id": "www-xxibaozyw-com",
-    "name": "细胞资源",
-    "baseUrl": "https://www.xxibaozyw.com/api.php/provide/vod",
-    "group": "normal",
-    "enabled": true,
     "priority": 42
-  },
-  {
-    "id": "xiangjiaozyw-com",
-    "name": "香蕉资源",
-    "baseUrl": "https://www.xiangjiaozyw.com/api.php/provide/vod",
-    "group": "normal",
-    "enabled": true,
-    "priority": 43
   },
   {
     "id": "xingba111-com",
@@ -349,6 +341,6 @@
     "baseUrl": "https://xingba222.com/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 44
+    "priority": 43
   }
 ]

@@ -1,11 +1,19 @@
 [
   {
+    "id": "iqiyizyapi-com",
+    "name": "爱奇艺",
+    "baseUrl": "https://iqiyizyapi.com/api.php/provide/vod",
+    "group": "normal",
+    "enabled": true,
+    "priority": 1
+  },
+  {
     "id": "ikunzy-com",
     "name": "iKun资源",
     "baseUrl": "https://ikunzyapi.com/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 1
+    "priority": 2
   },
   {
     "id": "dyttzyapi-com",
@@ -13,7 +21,7 @@
     "baseUrl": "http://caiji.dyttzyapi.com/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 2
+    "priority": 3
   },
   {
     "id": "www-maoyanzy-com",
@@ -21,7 +29,7 @@
     "baseUrl": "https://api.maoyanapi.top/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 3
+    "priority": 4
   },
   {
     "id": "cj-lzcaiji-com",
@@ -29,7 +37,7 @@
     "baseUrl": "https://cj.lzcaiji.com/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 4
+    "priority": 5
   },
   {
     "id": "jszyapi-com",
@@ -37,7 +45,7 @@
     "baseUrl": "https://jszyapi.com/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 5
+    "priority": 6
   },
   {
     "id": "www-moduzy-net",
@@ -45,20 +53,12 @@
     "baseUrl": "https://www.mdzyapi.com/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 6
+    "priority": 7
   },
   {
     "id": "ffzyapi-com",
     "name": "非凡资源",
     "baseUrl": "https://api.ffzyapi.com/api.php/provide/vod",
-    "group": "normal",
-    "enabled": true,
-    "priority": 7
-  },
-  {
-    "id": "bfzy-tv",
-    "name": "暴风资源",
-    "baseUrl": "https://bfzyapi.com/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
     "priority": 8
@@ -240,12 +240,20 @@
     "priority": 30
   },
   {
+    "id": "jkunzyapi-com",
+    "name": "jkun资源",
+    "baseUrl": "https://jkunzyapi.com/api.php/provide/vod",
+    "group": "normal",
+    "enabled": true,
+    "priority": 31
+  },
+  {
     "id": "Naixxzy-com",
     "name": "奶香资源",
     "baseUrl": "https://Naixxzy.com/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 31
+    "priority": 32
   },
   {
     "id": "slapibf-com",
@@ -253,7 +261,7 @@
     "baseUrl": "https://beiyong.slapibf.com/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 32
+    "priority": 33
   },
   {
     "id": "apilj-com",
@@ -261,7 +269,7 @@
     "baseUrl": "https://apilj.com/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 33
+    "priority": 34
   },
   {
     "id": "shayuapi-com",
@@ -269,7 +277,7 @@
     "baseUrl": "https://shayuapi.com/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 34
+    "priority": 35
   },
   {
     "id": "doudouzy-com",
@@ -277,20 +285,12 @@
     "baseUrl": "https://api.douapi.cc/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 35
+    "priority": 36
   },
   {
     "id": "didizy-com",
     "name": "滴滴资源",
     "baseUrl": "https://api.ddapi.cc/api.php/provide/vod",
-    "group": "normal",
-    "enabled": true,
-    "priority": 36
-  },
-  {
-    "id": "heiliaozy-cc",
-    "name": "黑料资源",
-    "baseUrl": "https://www.heiliaozyapi.com/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
     "priority": 37

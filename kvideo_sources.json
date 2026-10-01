@@ -328,25 +328,25 @@
     "priority": 41
   },
   {
-    "id": "thzy8-me",
-    "name": "桃花资源",
-    "baseUrl": "https://thzy1.me/api.php/provide/vod",
-    "group": "normal",
-    "enabled": true,
-    "priority": 42
-  },
-  {
     "id": "www-jingpinx-com",
     "name": "精品资源",
     "baseUrl": "https://www.jingpinx.com/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 43
+    "priority": 42
   },
   {
     "id": "ckzy-me",
     "name": "CK-资源",
     "baseUrl": "https://ckzy.me/api.php/provide/vod",
+    "group": "normal",
+    "enabled": true,
+    "priority": 43
+  },
+  {
+    "id": "souavzyw-com",
+    "name": "souavZY",
+    "baseUrl": "https://api.souavzyw.net/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
     "priority": 44

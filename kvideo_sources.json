@@ -24,20 +24,12 @@
     "priority": 3
   },
   {
-    "id": "www-maoyanzy-com",
-    "name": "猫眼资源",
-    "baseUrl": "https://api.maoyanapi.top/api.php/provide/vod",
-    "group": "normal",
-    "enabled": true,
-    "priority": 4
-  },
-  {
     "id": "cj-lzcaiji-com",
     "name": "量子资源",
     "baseUrl": "https://cj.lzcaiji.com/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 5
+    "priority": 4
   },
   {
     "id": "jszyapi-com",
@@ -45,7 +37,7 @@
     "baseUrl": "https://jszyapi.com/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 6
+    "priority": 5
   },
   {
     "id": "www-moduzy-net",
@@ -53,7 +45,7 @@
     "baseUrl": "https://www.mdzyapi.com/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 7
+    "priority": 6
   },
   {
     "id": "ffzyapi-com",
@@ -61,7 +53,7 @@
     "baseUrl": "https://api.ffzyapi.com/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 8
+    "priority": 7
   },
   {
     "id": "bfzy-tv",
@@ -69,12 +61,20 @@
     "baseUrl": "https://bfzyapi.com/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
-    "priority": 9
+    "priority": 8
   },
   {
     "id": "zuida-xyz",
     "name": "最大资源",
     "baseUrl": "https://api.zuidapi.com/api.php/provide/vod",
+    "group": "normal",
+    "enabled": true,
+    "priority": 9
+  },
+  {
+    "id": "wujinzy-me",
+    "name": "无尽资源",
+    "baseUrl": "https://api.wujinapi.me/api.php/provide/vod",
     "group": "normal",
     "enabled": true,
     "priority": 10
